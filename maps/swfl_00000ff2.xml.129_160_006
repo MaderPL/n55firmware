@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BINARY-HEADER xmlns="binary-header.xsd" MODEL-VERSION="2.1.0">
+
+  <BINARY-FLASHBLOCK>
+    <SHORT-NAME>swfl_00000ff2</SHORT-NAME>
+    <DESC>
+      <p>Ersteller: Juergen Ulbrecht
+        <br>Abteilung: Robert Bosch GmbH DGS-EC/ECB2</br>
+        <br>Telefon:   (0711/811-38943)</br>
+        <br>$DIF_Ref1: swfl-00000fef-129.160.001</br>
+        <br>$DIF_Bordnetzteilnehmer: MEVD17.2.6________</br>
+        <br>$DIF_Musterstand: C0</br>
+        <br>$DIF_SweArt: DST</br>
+        <br>$DIF_VARIANTE: MEVD17.2.6-N55-M0-B30-F030-EU5-MSA2-HG_AG-LL-RL-PVL-BHDP_______________________</br>
+        <br>$DIF_Entwickler_Kommentar: 75P9EJ0B#9EJHMAX5</br>
+      </p>
+    </DESC>
+    <ADMIN-DATA>
+      <DOC-REVISIONS>
+        <DOC-REVISION>
+          <TOOL>SWE created by SWE-Generator 3.8.0 with config-file C:\tmp\MEVD17_2_6\2015_11_09_config.cfg
+</TOOL>
+        </DOC-REVISION>
+      </DOC-REVISIONS>
+    </ADMIN-DATA>
+    <SDGS>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>Ident</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="ProcessClass">swfl</SD>
+        <SD SI="Identifier">00000ff2</SD>
+        <SD SI="Version">129_160_006</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>Format</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="AddressRange">32</SD>
+        <SD SI="NumberOfBytes"></SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>DescriptionTable</SHORT-NAME>
+        </SDG-CAPTION>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SWEDescriptionTableStartAddress</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="TARGET-START-ADDRESS">801FFD00</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SWESignatureAddress</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="TARGET-START-ADDRESS">801FFD08</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SWEDevelopmentInfoFieldAddress</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="TARGET-START-ADDRESS">801FFD8C</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SWEDescriptionTableEndAddress</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="TARGET-START-ADDRESS">801FFE8B</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SignatureTable</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="SignatureStatus">SIGNED</SD>
+        <SD SI="SignatureKeyLength">1024</SD>
+        <SD SI="SignatureHashMode">MD5</SD>
+        <SD SI="SignatureMode">rsa</SD>
+        <SD SI="SignatureByteOrder">INTEL</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SignatureSegment1</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="StartAddressTarget">80180000</SD>
+        <SD SI="EndAddressTarget">801FFBFF</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>CARB9CVN</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD>D49E902E</SD>
+      </SDG>
+      <SDG>
+        <SDG-CAPTION>
+          <SHORT-NAME>SWE_TYPE_NUMBER</SHORT-NAME>
+        </SDG-CAPTION>
+        <SD SI="SWE_TYPE_NUMBER">FFFE000A</SD>
+      </SDG>
+    </SDGS>
+    <FLASH-SEGMENTS>
+      <FLASH-SEGMENT COMPRESSION-STATUS="UNCOMPRESSED">
+        <SHORT-NAME>swfl_00000ff2_80180000</SHORT-NAME>
+        <SOURCE-START-ADDRESS>00000000</SOURCE-START-ADDRESS>
+        <SOURCE-END-ADDRESS>0007FBFF</SOURCE-END-ADDRESS>
+        <TARGET-START-ADDRESS>80180000</TARGET-START-ADDRESS>
+        <TARGET-END-ADDRESS>801FFBFF</TARGET-END-ADDRESS>
+        <COMPRESSION-METHOD>UNKNOWN</COMPRESSION-METHOD>
+        <CHECKSUM>2198</CHECKSUM>
+      </FLASH-SEGMENT>
+      <FLASH-SEGMENT COMPRESSION-STATUS="UNCOMPRESSED">
+        <SHORT-NAME>swfl_00000ff2_801FFD00</SHORT-NAME>
+        <SOURCE-START-ADDRESS>0007FC00</SOURCE-START-ADDRESS>
+        <SOURCE-END-ADDRESS>0007FEFF</SOURCE-END-ADDRESS>
+        <TARGET-START-ADDRESS>801FFD00</TARGET-START-ADDRESS>
+        <TARGET-END-ADDRESS>801FFFFF</TARGET-END-ADDRESS>
+        <COMPRESSION-METHOD>UNKNOWN</COMPRESSION-METHOD>
+        <CHECKSUM>4C10</CHECKSUM>
+      </FLASH-SEGMENT>
+    </FLASH-SEGMENTS>
+  </BINARY-FLASHBLOCK>
+
+</BINARY-HEADER>
