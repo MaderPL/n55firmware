@@ -1,0 +1,222 @@
+# Reconstructed RAM cells: 345 bytes total (345 in image)
+
+  0xd00027f0  (4b)  = 0x8004d4e4  RX Com ctx base (set by FUN_800ee312)
+  0xd0001be0  (4b)  = 0xffffffff  TX byte-ofs tbl ptr — runtime: [a9]+0x210 (CAFD-resident)
+  0xd0001bdc  (4b)  = 0xffffffff  TX bit-pos tbl ptr — runtime: [a9]+0x1e8 (CAFD-resident)
+  0xd0002584  (4b)  = 0x80042938  CAN_Init: MsgCfgEntry table base
+  0xd000258c  (4b)  = 0x80042908  CAN_Init: BaudCfgEntry table base
+  0xd0002588  (4b)  = 0x800428e0  CAN_Init: baud constant ptr
+  0xd00114ee  (2b)  = 0x0000      DAT_d00114ee[hwMO=0] -> MsgCfgEntry[0] (canId 0x1a1)
+  0xd0012c9d  (1b)  = 0x00        channelTypeTab[0] init=0
+  0xd00114f0  (2b)  = 0x0001      DAT_d00114ee[hwMO=1] -> MsgCfgEntry[1] (canId 0x597)
+  0xd0012c9e  (1b)  = 0x00        channelTypeTab[1] init=0
+  0xd00114f2  (2b)  = 0x0002      DAT_d00114ee[hwMO=2] -> MsgCfgEntry[2] (canId 0x512)
+  0xd0012c9f  (1b)  = 0x00        channelTypeTab[2] init=0
+  0xd00114f4  (2b)  = 0x0003      DAT_d00114ee[hwMO=3] -> MsgCfgEntry[3] (canId 0x500)
+  0xd0012ca0  (1b)  = 0x00        channelTypeTab[3] init=0
+  0xd00114f6  (2b)  = 0x0004      DAT_d00114ee[hwMO=4] -> MsgCfgEntry[4] (canId 0x512)
+  0xd0012ca1  (1b)  = 0x00        channelTypeTab[4] init=0
+  0xd00114f8  (2b)  = 0x0005      DAT_d00114ee[hwMO=5] -> MsgCfgEntry[5] (canId 0x500)
+  0xd0012ca2  (1b)  = 0x00        channelTypeTab[5] init=0
+  0xd00114fa  (2b)  = 0x0006      DAT_d00114ee[hwMO=6] -> MsgCfgEntry[6] (canId 0x6f0)
+  0xd0012ca3  (1b)  = 0x00        channelTypeTab[6] init=0
+  0xd00114fc  (2b)  = 0x0007      DAT_d00114ee[hwMO=7] -> MsgCfgEntry[7] (canId 0x612)
+  0xd0012ca4  (1b)  = 0x00        channelTypeTab[7] init=0
+  0xd00114fe  (2b)  = 0x0008      DAT_d00114ee[hwMO=8] -> MsgCfgEntry[8] (canId 0x7e0)
+  0xd0012ca5  (1b)  = 0x00        channelTypeTab[8] init=0
+  0xd0011500  (2b)  = 0x0009      DAT_d00114ee[hwMO=9] -> MsgCfgEntry[9] (canId 0x7df)
+  0xd0012ca6  (1b)  = 0x00        channelTypeTab[9] init=0
+  0xd0011502  (2b)  = 0x000a      DAT_d00114ee[hwMO=10] -> MsgCfgEntry[10] (canId 0x7e8)
+  0xd0012ca7  (1b)  = 0x00        channelTypeTab[10] init=0
+  0xd0011504  (2b)  = 0x000b      DAT_d00114ee[hwMO=11] -> MsgCfgEntry[11] (canId 0x20acf340)
+  0xd0012ca8  (1b)  = 0x00        channelTypeTab[11] init=0
+  0xd0011506  (2b)  = 0x000c      DAT_d00114ee[hwMO=12] -> MsgCfgEntry[12] (canId 0x0d9)
+  0xd0012ca9  (1b)  = 0x00        channelTypeTab[12] init=0
+  0xd0011508  (2b)  = 0x000d      DAT_d00114ee[hwMO=13] -> MsgCfgEntry[13] (canId 0x0a5)
+  0xd0012caa  (1b)  = 0x00        channelTypeTab[13] init=0
+  0xd001150a  (2b)  = 0x000e      DAT_d00114ee[hwMO=14] -> MsgCfgEntry[14] (canId 0x0a6)
+  0xd0012cab  (1b)  = 0x00        channelTypeTab[14] init=0
+  0xd001150c  (2b)  = 0x000f      DAT_d00114ee[hwMO=15] -> MsgCfgEntry[15] (canId 0x08f)
+  0xd0012cac  (1b)  = 0x00        channelTypeTab[15] init=0
+  0xd001150e  (2b)  = 0x0010      DAT_d00114ee[hwMO=16] -> MsgCfgEntry[16] (canId 0x145)
+  0xd0012cad  (1b)  = 0x00        channelTypeTab[16] init=0
+  0xd0011510  (2b)  = 0x0011      DAT_d00114ee[hwMO=17] -> MsgCfgEntry[17] (canId 0x1fc)
+  0xd0012cae  (1b)  = 0x00        channelTypeTab[17] init=0
+  0xd0011512  (2b)  = 0x0012      DAT_d00114ee[hwMO=18] -> MsgCfgEntry[18] (canId 0x08f)
+  0xd0012caf  (1b)  = 0x00        channelTypeTab[18] init=0
+  0xd0011514  (2b)  = 0x0013      DAT_d00114ee[hwMO=19] -> MsgCfgEntry[19] (canId 0x137)
+  0xd0012cb0  (1b)  = 0x00        channelTypeTab[19] init=0
+  0xd0011516  (2b)  = 0x0014      DAT_d00114ee[hwMO=20] -> MsgCfgEntry[20] (canId 0x137)
+  0xd0012cb1  (1b)  = 0x00        channelTypeTab[20] init=0
+  0xd0011518  (2b)  = 0x0015      DAT_d00114ee[hwMO=21] -> MsgCfgEntry[21] (canId 0x0a0)
+  0xd0012cb2  (1b)  = 0x00        channelTypeTab[21] init=0
+  0xd001151a  (2b)  = 0x0016      DAT_d00114ee[hwMO=22] -> MsgCfgEntry[22] (canId 0x0b0)
+  0xd0012cb3  (1b)  = 0x00        channelTypeTab[22] init=0
+  0xd001151c  (2b)  = 0x0017      DAT_d00114ee[hwMO=23] -> MsgCfgEntry[23] (canId 0x3fd)
+  0xd0012cb4  (1b)  = 0x00        channelTypeTab[23] init=0
+  0xd001151e  (2b)  = 0x0018      DAT_d00114ee[hwMO=24] -> MsgCfgEntry[24] (canId 0x0d9)
+  0xd0012cb5  (1b)  = 0x00        channelTypeTab[24] init=0
+  0xd0011520  (2b)  = 0x0019      DAT_d00114ee[hwMO=25] -> MsgCfgEntry[25] (canId 0x3b3)
+  0xd0012cb6  (1b)  = 0x00        channelTypeTab[25] init=0
+  0xd0011522  (2b)  = 0x001a      DAT_d00114ee[hwMO=26] -> MsgCfgEntry[26] (canId 0x0a5)
+  0xd0012cb7  (1b)  = 0x00        channelTypeTab[26] init=0
+  0xd0011524  (2b)  = 0x001b      DAT_d00114ee[hwMO=27] -> MsgCfgEntry[27] (canId 0x0dc)
+  0xd0012cb8  (1b)  = 0x00        channelTypeTab[27] init=0
+  0xd0011526  (2b)  = 0x001c      DAT_d00114ee[hwMO=28] -> MsgCfgEntry[28] (canId 0x0f3)
+  0xd0012cb9  (1b)  = 0x00        channelTypeTab[28] init=0
+  0xd0011528  (2b)  = 0x001d      DAT_d00114ee[hwMO=29] -> MsgCfgEntry[29] (canId 0x12f)
+  0xd0012cba  (1b)  = 0x00        channelTypeTab[29] init=0
+  0xd001152a  (2b)  = 0x001e      DAT_d00114ee[hwMO=30] -> MsgCfgEntry[30] (canId 0x2f9)
+  0xd0012cbb  (1b)  = 0x00        channelTypeTab[30] init=0
+  0xd001152c  (2b)  = 0x001f      DAT_d00114ee[hwMO=31] -> MsgCfgEntry[31] (canId 0x39a)
+  0xd0012cbc  (1b)  = 0x00        channelTypeTab[31] init=0
+  0xd001152e  (2b)  = 0x0020      DAT_d00114ee[hwMO=32] -> MsgCfgEntry[32] (canId 0x0f8)
+  0xd0012cbd  (1b)  = 0x00        channelTypeTab[32] init=0
+  0xd0011530  (2b)  = 0x0021      DAT_d00114ee[hwMO=33] -> MsgCfgEntry[33] (canId 0x1af)
+  0xd0012cbe  (1b)  = 0x00        channelTypeTab[33] init=0
+  0xd0011532  (2b)  = 0x0022      DAT_d00114ee[hwMO=34] -> MsgCfgEntry[34] (canId 0x396)
+  0xd0012cbf  (1b)  = 0x00        channelTypeTab[34] init=0
+  0xd0011534  (2b)  = 0x0023      DAT_d00114ee[hwMO=35] -> MsgCfgEntry[35] (canId 0x396)
+  0xd0012cc0  (1b)  = 0x00        channelTypeTab[35] init=0
+  0xd0011536  (2b)  = 0x0024      DAT_d00114ee[hwMO=36] -> MsgCfgEntry[36] (canId 0x39a)
+  0xd0012cc1  (1b)  = 0x00        channelTypeTab[36] init=0
+  0xd0011538  (2b)  = 0x0025      DAT_d00114ee[hwMO=37] -> MsgCfgEntry[37] (canId 0x3b0)
+  0xd0012cc2  (1b)  = 0x00        channelTypeTab[37] init=0
+  0xd001153a  (2b)  = 0x0026      DAT_d00114ee[hwMO=38] -> MsgCfgEntry[38] (canId 0x397)
+  0xd0012cc3  (1b)  = 0x00        channelTypeTab[38] init=0
+  0xd001153c  (2b)  = 0x0027      DAT_d00114ee[hwMO=39] -> MsgCfgEntry[39] (canId 0x3fb)
+  0xd0012cc4  (1b)  = 0x00        channelTypeTab[39] init=0
+  0xd001153e  (2b)  = 0x0028      DAT_d00114ee[hwMO=40] -> MsgCfgEntry[40] (canId 0x381)
+  0xd0012cc5  (1b)  = 0x00        channelTypeTab[40] init=0
+  0xd0011540  (2b)  = 0x0029      DAT_d00114ee[hwMO=41] -> MsgCfgEntry[41] (canId 0x1b9)
+  0xd0012cc6  (1b)  = 0x00        channelTypeTab[41] init=0
+  0xd0011542  (2b)  = 0x002a      DAT_d00114ee[hwMO=42] -> MsgCfgEntry[42] (canId 0x395)
+  0xd0012cc7  (1b)  = 0x00        channelTypeTab[42] init=0
+  0xd0011544  (2b)  = 0x002b      DAT_d00114ee[hwMO=43] -> MsgCfgEntry[43] (canId 0x297)
+  0xd0012cc8  (1b)  = 0x00        channelTypeTab[43] init=0
+  0xd0011546  (2b)  = 0x002c      DAT_d00114ee[hwMO=44] -> MsgCfgEntry[44] (canId 0x2e4)
+  0xd0012cc9  (1b)  = 0x00        channelTypeTab[44] init=0
+  0xd0011548  (2b)  = 0x002d      DAT_d00114ee[hwMO=45] -> MsgCfgEntry[45] (canId 0x330)
+  0xd0012cca  (1b)  = 0x00        channelTypeTab[45] init=0
+  0xd001154a  (2b)  = 0x002e      DAT_d00114ee[hwMO=46] -> MsgCfgEntry[46] (canId 0x2ca)
+  0xd0012ccb  (1b)  = 0x00        channelTypeTab[46] init=0
+  0xd001154c  (2b)  = 0x002f      DAT_d00114ee[hwMO=47] -> MsgCfgEntry[47] (canId 0x328)
+  0xd0012ccc  (1b)  = 0x00        channelTypeTab[47] init=0
+  0xd001154e  (2b)  = 0x0030      DAT_d00114ee[hwMO=48] -> MsgCfgEntry[48] (canId 0x135)
+  0xd0012ccd  (1b)  = 0x00        channelTypeTab[48] init=0
+  0xd0011550  (2b)  = 0x0031      DAT_d00114ee[hwMO=49] -> MsgCfgEntry[49] (canId 0x2fc)
+  0xd0012cce  (1b)  = 0x00        channelTypeTab[49] init=0
+  0xd0011552  (2b)  = 0x0032      DAT_d00114ee[hwMO=50] -> MsgCfgEntry[50] (canId 0x2f8)
+  0xd0012ccf  (1b)  = 0x00        channelTypeTab[50] init=0
+  0xd0011554  (2b)  = 0x0033      DAT_d00114ee[hwMO=51] -> MsgCfgEntry[51] (canId 0x3be)
+  0xd0012cd0  (1b)  = 0x00        channelTypeTab[51] init=0
+  0xd0011556  (2b)  = 0x0034      DAT_d00114ee[hwMO=52] -> MsgCfgEntry[52] (canId 0x3a5)
+  0xd0012cd1  (1b)  = 0x00        channelTypeTab[52] init=0
+  0xd0011558  (2b)  = 0x0035      DAT_d00114ee[hwMO=53] -> MsgCfgEntry[53] (canId 0x388)
+  0xd0012cd2  (1b)  = 0x00        channelTypeTab[53] init=0
+  0xd001155a  (2b)  = 0x0036      DAT_d00114ee[hwMO=54] -> MsgCfgEntry[54] (canId 0x3a0)
+  0xd0012cd3  (1b)  = 0x00        channelTypeTab[54] init=0
+  0xd001155c  (2b)  = 0x0037      DAT_d00114ee[hwMO=55] -> MsgCfgEntry[55] (canId 0x280)
+  0xd0012cd4  (1b)  = 0x00        channelTypeTab[55] init=0
+  0xd001155e  (2b)  = 0x0038      DAT_d00114ee[hwMO=56] -> MsgCfgEntry[56] (canId 0x2dc)
+  0xd0012cd5  (1b)  = 0x00        channelTypeTab[56] init=0
+  0xd0011560  (2b)  = 0x0039      DAT_d00114ee[hwMO=57] -> MsgCfgEntry[57] (canId 0x380)
+  0xd0012cd6  (1b)  = 0x00        channelTypeTab[57] init=0
+  0xd0011562  (2b)  = 0x003a      DAT_d00114ee[hwMO=58] -> MsgCfgEntry[58] (canId 0x1b3)
+  0xd0012cd7  (1b)  = 0x00        channelTypeTab[58] init=0
+  0xd0011564  (2b)  = 0x003b      DAT_d00114ee[hwMO=59] -> MsgCfgEntry[59] (canId 0x399)
+  0xd0012cd8  (1b)  = 0x00        channelTypeTab[59] init=0
+  0xd0011566  (2b)  = 0x003c      DAT_d00114ee[hwMO=60] -> MsgCfgEntry[60] (canId 0x335)
+  0xd0012cd9  (1b)  = 0x00        channelTypeTab[60] init=0
+  0xd0011568  (2b)  = 0x003d      DAT_d00114ee[hwMO=61] -> MsgCfgEntry[61] (canId 0x335)
+  0xd0012cda  (1b)  = 0x00        channelTypeTab[61] init=0
+  0xd001156a  (2b)  = 0x003e      DAT_d00114ee[hwMO=62] -> MsgCfgEntry[62] (canId 0x3fb)
+  0xd0012cdb  (1b)  = 0x00        channelTypeTab[62] init=0
+  0xd001156c  (2b)  = 0x003f      DAT_d00114ee[hwMO=63] -> MsgCfgEntry[63] (canId 0x3f9)
+  0xd0012cdc  (1b)  = 0x00        channelTypeTab[63] init=0
+  0xd001156e  (2b)  = 0x0040      DAT_d00114ee[hwMO=64] -> MsgCfgEntry[64] (canId 0x0c2)
+  0xd0012cdd  (1b)  = 0x00        channelTypeTab[64] init=0
+  0xd0011570  (2b)  = 0x0041      DAT_d00114ee[hwMO=65] -> MsgCfgEntry[65] (canId 0x30b)
+  0xd0012cde  (1b)  = 0x00        channelTypeTab[65] init=0
+  0xd0011572  (2b)  = 0x0042      DAT_d00114ee[hwMO=66] -> MsgCfgEntry[66] (canId 0x3f9)
+  0xd0012cdf  (1b)  = 0x00        channelTypeTab[66] init=0
+  0xd0011574  (2b)  = 0x0043      DAT_d00114ee[hwMO=67] -> MsgCfgEntry[67] (canId 0x397)
+  0xd0012ce0  (1b)  = 0x00        channelTypeTab[67] init=0
+  0xd0011576  (2b)  = 0x0044      DAT_d00114ee[hwMO=68] -> MsgCfgEntry[68] (canId 0x30b)
+  0xd0012ce1  (1b)  = 0x00        channelTypeTab[68] init=0
+  0xd0011578  (2b)  = 0x0045      DAT_d00114ee[hwMO=69] -> MsgCfgEntry[69] (canId 0x351)
+  0xd0012ce2  (1b)  = 0x00        channelTypeTab[69] init=0
+  0xd001157a  (2b)  = 0x0046      DAT_d00114ee[hwMO=70] -> MsgCfgEntry[70] (canId 0x1ba)
+  0xd0012ce3  (1b)  = 0x00        channelTypeTab[70] init=0
+  0xd001157c  (2b)  = 0x0047      DAT_d00114ee[hwMO=71] -> MsgCfgEntry[71] (canId 0x0df)
+  0xd0012ce4  (1b)  = 0x00        channelTypeTab[71] init=0
+  0xd001157e  (2b)  = 0x0048      DAT_d00114ee[hwMO=72] -> MsgCfgEntry[72] (canId 0x592)
+  0xd0012ce5  (1b)  = 0x00        channelTypeTab[72] init=0
+  0xd0011580  (2b)  = 0x0049      DAT_d00114ee[hwMO=73] -> MsgCfgEntry[73] (canId 0x592)
+  0xd0012ce6  (1b)  = 0x00        channelTypeTab[73] init=0
+  0xd0011582  (2b)  = 0x004a      DAT_d00114ee[hwMO=74] -> MsgCfgEntry[74] (canId 0x580)
+  0xd0012ce7  (1b)  = 0x00        channelTypeTab[74] init=0
+  0xd0011584  (2b)  = 0x004b      DAT_d00114ee[hwMO=75] -> MsgCfgEntry[75] (canId 0x592)
+  0xd0012ce8  (1b)  = 0x00        channelTypeTab[75] init=0
+  0xd0011586  (2b)  = 0x004c      DAT_d00114ee[hwMO=76] -> MsgCfgEntry[76] (canId 0x0a7)
+  0xd0012ce9  (1b)  = 0x00        channelTypeTab[76] init=0
+  0xd0011588  (2b)  = 0x004d      DAT_d00114ee[hwMO=77] -> MsgCfgEntry[77] (canId 0x598)
+  0xd0012cea  (1b)  = 0x00        channelTypeTab[77] init=0
+  0xd001158a  (2b)  = 0x004e      DAT_d00114ee[hwMO=78] -> MsgCfgEntry[78] (canId 0x580)
+  0xd0012ceb  (1b)  = 0x00        channelTypeTab[78] init=0
+  0xd001158c  (2b)  = 0x004f      DAT_d00114ee[hwMO=79] -> MsgCfgEntry[79] (canId 0x607)
+  0xd0012cec  (1b)  = 0x00        channelTypeTab[79] init=0
+  0xd001158e  (2b)  = 0x0050      DAT_d00114ee[hwMO=80] -> MsgCfgEntry[80] (canId 0x6f0)
+  0xd0012ced  (1b)  = 0x00        channelTypeTab[80] init=0
+  0xd0011590  (2b)  = 0x0051      DAT_d00114ee[hwMO=81] -> MsgCfgEntry[81] (canId 0x7ec)
+  0xd0012cee  (1b)  = 0x00        channelTypeTab[81] init=0
+  0xd0011592  (2b)  = 0x0052      DAT_d00114ee[hwMO=82] -> MsgCfgEntry[82] (canId 0x7e4)
+  0xd0012cef  (1b)  = 0x00        channelTypeTab[82] init=0
+  0xd0011594  (2b)  = 0x0053      DAT_d00114ee[hwMO=83] -> MsgCfgEntry[83] (canId 0x607)
+  0xd0012cf0  (1b)  = 0x00        channelTypeTab[83] init=0
+  0xd0011596  (2b)  = 0x0054      DAT_d00114ee[hwMO=84] -> MsgCfgEntry[84] (canId 0x7ec)
+  0xd0012cf1  (1b)  = 0x00        channelTypeTab[84] init=0
+  0xd0011598  (2b)  = 0x0055      DAT_d00114ee[hwMO=85] -> MsgCfgEntry[85] (canId 0x7bd)
+  0xd0012cf2  (1b)  = 0x00        channelTypeTab[85] init=0
+  0xd001159a  (2b)  = 0x0056      DAT_d00114ee[hwMO=86] -> MsgCfgEntry[86] (canId 0x7bc)
+  0xd0012cf3  (1b)  = 0x00        channelTypeTab[86] init=0
+  0xd001159c  (2b)  = 0x0057      DAT_d00114ee[hwMO=87] -> MsgCfgEntry[87] (canId 0x7ea)
+  0xd0012cf4  (1b)  = 0x00        channelTypeTab[87] init=0
+  0xd001159e  (2b)  = 0x0058      DAT_d00114ee[hwMO=88] -> MsgCfgEntry[88] (canId 0x7e2)
+  0xd0012cf5  (1b)  = 0x00        channelTypeTab[88] init=0
+  0xd00115a0  (2b)  = 0x0059      DAT_d00114ee[hwMO=89] -> MsgCfgEntry[89] (canId 0x7a0)
+  0xd0012cf6  (1b)  = 0x00        channelTypeTab[89] init=0
+  0xd00115a2  (2b)  = 0x005a      DAT_d00114ee[hwMO=90] -> MsgCfgEntry[90] (canId 0x7eb)
+  0xd0012cf7  (1b)  = 0x00        channelTypeTab[90] init=0
+  0xd00115a4  (2b)  = 0x005b      DAT_d00114ee[hwMO=91] -> MsgCfgEntry[91] (canId 0x7a1)
+  0xd0012cf8  (1b)  = 0x00        channelTypeTab[91] init=0
+  0xd00115a6  (2b)  = 0x005c      DAT_d00114ee[hwMO=92] -> MsgCfgEntry[92] (canId 0x7ec)
+  0xd0012cf9  (1b)  = 0x00        channelTypeTab[92] init=0
+  0xd00115a8  (2b)  = 0x005d      DAT_d00114ee[hwMO=93] -> MsgCfgEntry[93] (canId 0x7a2)
+  0xd0012cfa  (1b)  = 0x00        channelTypeTab[93] init=0
+  0xd00115aa  (2b)  = 0x005e      DAT_d00114ee[hwMO=94] -> MsgCfgEntry[94] (canId 0x7ed)
+  0xd0012cfb  (1b)  = 0x00        channelTypeTab[94] init=0
+  0xd00115ac  (2b)  = 0x005f      DAT_d00114ee[hwMO=95] -> MsgCfgEntry[95] (canId 0x2c4)
+  0xd0012cfc  (1b)  = 0x00        channelTypeTab[95] init=0
+  0xd00115ae  (2b)  = 0x0060      DAT_d00114ee[hwMO=96] -> MsgCfgEntry[96] (canId 0x281)
+  0xd0012cfd  (1b)  = 0x00        channelTypeTab[96] init=0
+  0xd00115b0  (2b)  = 0x0061      DAT_d00114ee[hwMO=97] -> MsgCfgEntry[97] (canId 0x592)
+  0xd0012cfe  (1b)  = 0x00        channelTypeTab[97] init=0
+  0xd00115b2  (2b)  = 0x0062      DAT_d00114ee[hwMO=98] -> MsgCfgEntry[98] (canId 0x592)
+  0xd0012cff  (1b)  = 0x00        channelTypeTab[98] init=0
+  0xd00115b4  (2b)  = 0x0063      DAT_d00114ee[hwMO=99] -> MsgCfgEntry[99] (canId 0x592)
+  0xd0012d00  (1b)  = 0x00        channelTypeTab[99] init=0
+  0xd00115b6  (2b)  = 0x0064      DAT_d00114ee[hwMO=100] -> MsgCfgEntry[100] (canId 0x592)
+  0xd0012d01  (1b)  = 0x00        channelTypeTab[100] init=0
+  0xd00115b8  (2b)  = 0x0065      DAT_d00114ee[hwMO=101] -> MsgCfgEntry[101] (canId 0x592)
+  0xd0012d02  (1b)  = 0x00        channelTypeTab[101] init=0
+  0xd00115ba  (2b)  = 0x0066      DAT_d00114ee[hwMO=102] -> MsgCfgEntry[102] (canId 0x592)
+  0xd0012d03  (1b)  = 0x00        channelTypeTab[102] init=0
+  0xd00115bc  (2b)  = 0x0067      DAT_d00114ee[hwMO=103] -> MsgCfgEntry[103] (canId 0x592)
+  0xd0012d04  (1b)  = 0x00        channelTypeTab[103] init=0
+  0xd00115be  (2b)  = 0x0068      DAT_d00114ee[hwMO=104] -> MsgCfgEntry[104] (canId 0x592)
+  0xd0012d05  (1b)  = 0x00        channelTypeTab[104] init=0
+  0xd00115c0  (2b)  = 0x0069      DAT_d00114ee[hwMO=105] -> MsgCfgEntry[105] (canId 0x592)
+  0xd0012d06  (1b)  = 0x00        channelTypeTab[105] init=0
+  0xd00115c2  (2b)  = 0x006a      DAT_d00114ee[hwMO=106] -> MsgCfgEntry[106] (canId 0x592)
+  0xd0012d07  (1b)  = 0x00        channelTypeTab[106] init=0
